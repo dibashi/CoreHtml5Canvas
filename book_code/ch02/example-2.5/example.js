@@ -42,7 +42,7 @@ function fillCanvasWithPattern(repeatString) {
    context.clearRect(0, 0, canvas.width, canvas.height);
    context.fillStyle = pattern;
    context.fillRect(0, 0, canvas.width, canvas.height);
-   context.fill();
+  //  context.fill();
 };
 
 repeatRadio.onclick = function (e) {

@@ -48,7 +48,7 @@ function drawBackground() {
        i = context.canvas.height;
    
    context.clearRect(0,0,canvas.width,canvas.height);
-   context.strokeStyle = 'lightgray';
+   context.strokeStyle = 'blue';
    context.lineWidth = 0.5;
 
    while(i > VERTICAL_LINE_SPACING*4) {

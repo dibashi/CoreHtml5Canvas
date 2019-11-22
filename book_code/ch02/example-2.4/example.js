@@ -32,7 +32,7 @@
 var canvas = document.getElementById('canvas'),
     context = canvas.getContext('2d'),
     gradient = context.createRadialGradient(
-                 canvas.width/2, canvas.height, 10,
+                 canvas.width/2, canvas.height-30, 50,
                  canvas.width/2, 0, 100);
 
 gradient.addColorStop(0, 'blue');

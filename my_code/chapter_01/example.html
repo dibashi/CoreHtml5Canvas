@@ -1,28 +1,49 @@
 <!DOCTYPE html>
-<!-- Page 3 -->
 <html>
+
 <head>
-	<title>A Simple Canvas /example</title>
+	<meta charset="utf8">
+	<title>canvas</title>
+
 	<style>
 		body {
-			background-color: #dddddd;
+			background: #dddddd;
 		}
 
 		#canvas {
-			margin: 10px;
+			/* position: absolute;
+			left: 0px;
+			top: 20px;
+			margin: 20px; */
+			/* padding: 30px;
+			border: 10px inset rgba(137, 230, 100, 0.521); */
+			background: #ffffff;
+			/* cursor: pointer; */
+			/* width:1200px;
+			height: 800px; */
+		}
+
+		#readout {
+			/* margin-top: 10px;
+			margin-left: 15px;
+			color: blue; */
 			padding: 10px;
-			background-color: #ffffff;
-			border: thin inset #aaaaaa;
-			/*width: 600px;
-			height: 300px;*/
 		}
 	</style>
+
 </head>
+
 <body>
-	<canvas id="canvas" width="600" height="300"/>
-	<!--<canvas id="canvas"/>-->
-	<!-- canvas的width和height不同，可以达到自然缩放的效果，神奇！ -->
-	<!--<canvas id="canvas" width="450" height="225"/>-->
+	<div id='readout'>
+		<input type="radio" id="r" name='rr'/>repeat
+		<input type="radio" id="xr" name='rr'/>x repeat
+		<input type="radio" id="yr" name='rr'/>y repeat
+		<input type="radio" id="nr" name='rr' checked/>no repeat
+	</div>
+	<canvas id="canvas" width="600" height="400">
+		Canvas not supported
+	</canvas>
 	<script src="example.js"></script>
 </body>
+
 </html>

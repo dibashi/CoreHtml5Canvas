@@ -95,6 +95,7 @@ context.fill();
 
 context.beginPath();
 context.arc(150, 370, 60, 0, Math.PI*3/2);
+
 context.stroke();
 
 context.beginPath();

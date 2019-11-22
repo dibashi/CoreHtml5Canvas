@@ -32,7 +32,7 @@
 var canvas = document.getElementById('canvas'),
     context = canvas.getContext('2d'),
     gradient = context.createLinearGradient(
-                 0, 0, 0, canvas.height/2);
+                 0, 0, canvas.width, canvas.height);
 
 gradient.addColorStop(0, 'blue');
 gradient.addColorStop(0.25, 'white');
